@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+
+    .search-result-info {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .divider {
+            display: inline-block;
+            height: 24px;
+            width: 2px;
+            background-color: #8f8f8f;
+        }
+    }
+}
